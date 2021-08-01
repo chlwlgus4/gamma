@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ENC(EKtgTfU9rgYMgbHS2jhVNEztTloe+pJXvXwsMR6/t/XUVckWg/IBB9fzRVBqHmVXwaI2eBCKa6paYpNHCpE7VlRO2yLAPWTukd4hvtss+75mzrktx7xfZ+c7ljHs7B1U)
+    username: ENC(xies6ahRwQNosSI1zqP2cg==)
+    password: ENC(JlJOjSCZp+28ht6tirmPllWUamMMiGc3)
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9090
+jasypt:
+  encryptor:
+    password: chlwl695
+    bean: jasyptStringEncryptor
